@@ -1,0 +1,131 @@
+/*attributes*/
+body{
+background-color: #666699;
+	font-family: arial;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #ecd9c6;
+}
+
+/*classes*/
+.Wrapper{
+
+}
+.Header{
+	width: 100%;
+	display: inline-block;
+	color: white;
+background-color: #0F57E8;
+}
+.MainContent{
+	margin-top: 60px;
+			display: inline-block;
+		text-align: center;
+background-color: #2E38BA;
+margin: 60px,0,0,0;
+}
+.Footer{
+	color: white;
+			display: inline-block;
+		text-align: center;
+		width: 100%;
+background-color: #660066;
+}
+.William{
+	width: 120px;
+}
+.Intro{
+	font-size: 130%;
+}
+.Follow{
+
+	font-size: 130%;
+}
+.Links{
+	width: 120px;
+	padding: 10%;
+	margin-left: 10%;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; 
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); 
+}
+
+.fa{
+	color:#fff;
+	font-size:40px;
+	transition:all ease-in-out .25s;
+}
+.fa:hover{
+	color:#000
+}
+
+.navbar{ 
+		float: left;
+	    border-right: 1px solid #bbb;
+	    overflow: hidden;
+}
+.navbar a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #111;
+}
+.noDots{
+    list-style-type: none;
+}
+.ptext .border.trans{
+  background-color:transparent;
+}
+.profilePicture{
+	background-image: url('../Images/ProfilePicture.jpg');
+  min-height:400px;
+}
+.firstImage{
+	background-image: url('../Images/pexels-photo-976917.jpeg');
+  min-height:400px;
+}
+.secondImage{
+	background-image: url('../Images/close-up-desk-lamp-justifyyourlove-823841.jpg');
+	  min-height:400px;
+}
+.thirdImage{
+	background-image: url('../Images/Phi-Phi-Don-View-Point.Hat-Noppharat-Thara-Mu-Ko-Phi-Phi-National-Marine-Park-Krabi.jpg');
+	  min-height:400px;
+}
+  .firstImage, .secondImage, .thirdImage{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  margin: 0;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+@media(max-width:568px){
+  .firstImage, .secondImage, .thirdImage{
+    background-attachment:scroll;
+  }
+}
+/*ID's*/
