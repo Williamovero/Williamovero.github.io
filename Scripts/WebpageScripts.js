@@ -1,23 +1,13 @@
-function ResizeImage() {
-	var count=0;
-	var img= new Image();
-	img.src = count + ".jpg"
+// function checkInfo() {
+//   var name = document.getElementById('name').value;
+//   var phone = document.getElementById('phone').value;
+//   var email = document.getElementById('email').value;
 
-
-}
-function Shift(argument) {
-	var count=0;
-	count++;
-	if (count>3) {
-		count=0;
-	}
-
-	var img= new Image();
-	img.src = count + ".jpg"
-	img.onload = getSize;
-
-	document.getElementById('SlideShow').src=img.src;
-}
-function GetSize(argument) {
-
-}
+//   if (name='' || phone='' || email='') {
+//     alert('Fill in all required information');
+//     return false;
+//   }
+//   else{
+//     return true;
+//   }
+// }

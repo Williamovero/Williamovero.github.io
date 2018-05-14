@@ -1,0 +1,96 @@
+/*Attributes*/
+html, body{
+	height:100%;
+	font-family: Arial;
+}
+
+h1,h2,h3,h4{
+  color: white;
+  text-shadow: 5px;
+}
+
+/*Classes*/
+.active {
+    background-color: #599857;
+}
+.colorPurpleNav{
+  background-color: #202369;
+  width: 100%;
+}
+
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #2A025F;
+}
+
+.leftcolumn {
+  background-color: #340D69; 
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  height: 100%;
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  background-color: #65537D;  
+
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #030362;
+  margin-top: 20px;
+  height: 400px;
+  color: white;
+}
+.paletteLight{
+  background-color: #585881;
+}
+.paletteDark{
+  background-color: #030362;
+}
+@media (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+.SignUp{
+ text-align: center;
+ margin: 100px 400px; 
+
+}
+.SignUpPage{
+  background-image: url(../images/blue-ocean-water-5412.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; 
+}
+
+
+.LoginPage{
+   background-image: url(../images/blur-blurred-bokeh-938967.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; 
+}
+
+.smallImage{
+  width: 200px;
+}
+
+/*ID's*/
+#maincontent{
+  background-color: #014983;
+  color: #827E87;
+  text-shadow: 5px;
+}
+#register{
+   background-color: #014983;
+ opacity: 0.8;
+ width: 100%;
+ padding: 50px 0px;
+}

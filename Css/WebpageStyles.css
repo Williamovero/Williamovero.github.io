@@ -1,108 +1,42 @@
 /*attributes*/
-body{
-background-color: #666699;
-	font-family: arial;
-	margin: 0;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.8em;
-	color: #ecd9c6;
+html, body{
+	height:100%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+background-color: #D3D3D3;
 }
+
 
 /*classes*/
-.Wrapper{
 
+.textShadow{
+  color: #D3D3D3;
+  text-shadow: 1px 2px;
 }
-.Header{
-	width: 100%;
-	display: inline-block;
-	color: white;
-background-color: #0F57E8;
-}
-.MainContent{
-	margin-top: 60px;
-			display: inline-block;
-		text-align: center;
-background-color: #2E38BA;
-margin: 60px,0,0,0;
-}
-.Footer{
-	color: white;
-			display: inline-block;
-		text-align: center;
-		width: 100%;
-background-color: #660066;
-}
-.William{
-	width: 120px;
-}
-.Intro{
-	font-size: 130%;
-}
-.Follow{
-
-	font-size: 130%;
-}
-.Links{
-	width: 120px;
-	padding: 10%;
-	margin-left: 10%;
+.footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
 }
 
-.zoom {
-    padding: 50px;
-    background-color: green;
-    transition: transform .2s; 
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-}
-
-.zoom:hover {
-    transform: scale(1.5); 
-}
-
-.fa{
-	color:#fff;
-	font-size:40px;
-	transition:all ease-in-out .25s;
-}
-.fa:hover{
-	color:#000
-}
-
-.navbar{ 
-		float: left;
-	    border-right: 1px solid #bbb;
-	    overflow: hidden;
-}
-.navbar a{
-	display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.navbar a:hover {
-    background-color: #111;
-}
 .noDots{
     list-style-type: none;
 }
-.ptext .border.trans{
-  background-color:transparent;
-}
+
+
+/* Parallax Images */
 .profilePicture{
 	background-image: url('../Images/ProfilePicture.jpg');
   min-height:400px;
 }
 .firstImage{
-	background-image: url('../Images/pexels-photo-976917.jpeg');
-  min-height:400px;
+	background-image: url('https://source.unsplash.com/1600x900/?computer');
+  min-height:500px;
 }
 .secondImage{
-	background-image: url('../Images/close-up-desk-lamp-justifyyourlove-823841.jpg');
-	  min-height:400px;
+	background-image: url('https://source.unsplash.com/1600x900/?business');
+	  min-height:500px;
 }
 .thirdImage{
 	background-image: url('../Images/Phi-Phi-Don-View-Point.Hat-Noppharat-Thara-Mu-Ko-Phi-Phi-National-Marine-Park-Krabi.jpg');
@@ -128,4 +62,41 @@ background-color: #660066;
     background-attachment:scroll;
   }
 }
+/* End of parallax images */
 /*ID's*/
+#showcase{
+  background-image:url('../Images/cloud-landscape-mountain-1036371.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0;
+  color: white;
+}
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#926239;
+  border:#926239 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#showcase .button:hover{
+  background:#926239;
+  color:#fff;
+}
